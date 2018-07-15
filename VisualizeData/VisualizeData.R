@@ -1,6 +1,8 @@
-# © 2016 Microsoft Corporation. All rights reserved.
+# Â© 2016 Microsoft Corporation. All rights reserved.
 library(ggplot2)
 library(gridExtra)
+
+theme_set(theme_grey(base_size = 18)) 
 
 twovariableplots <- function(dataset, xcol, ycol, viztype) 
 {
